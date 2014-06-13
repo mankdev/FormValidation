@@ -1,9 +1,10 @@
 {
   "name": "validation",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Simple validation component written on ES6",
   "main": "index.js",
   "scripts": {
+	"install": "node_modules/bower/bin/bower install",
     "test": "node_modules/karma/bin/karma start --single-run"
   },
   "author": "mankdev (tema@mankdev.name)",
@@ -16,6 +17,7 @@
     "gulp-concat": "~2.2.0",
     "gulp-uglify": "~0.3.0",
     "karma-html2js-preprocessor": "~0.1.0",
-    "karma-coverage": "~0.2.4"
+    "karma-coverage": "~0.2.4",
+    "bower": "~1.3.5"
   }
 }
