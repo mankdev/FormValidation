@@ -1,0 +1,32 @@
+<form action="#" novalidate id="validForm">
+	<input type="text"
+		   data-validatable
+		   data-validation-true-validator/>
+
+	<input data-validatable
+		   data-validation-another-true-validator
+		   data-validation-true-validator/>
+
+	<button type="submit">send</button>
+</form>
+
+<form action="#" novalidate id="invalidForm">
+	<input type="text"
+		   data-validatable
+		   data-validation-true-validator/>
+
+	<input data-validatable
+		   data-validation-true-validator
+		   data-validation-another-true-validator
+		   data-validation-false-validator/>
+
+	<button type="submit">send</button>
+</form>
+
+<form action="#" novalidate id="novalidatableForm">
+	<input type="text" data-validation-true-validator/>
+
+	<input type="password" data-validation-false-validator/>
+
+	<button type="submit">send</button>
+</form>

@@ -1,0 +1,20 @@
+{
+  "name": "validation",
+  "version": "1.0.0",
+  "authors": [
+    "mankdev <tema@mankdev.name>"
+  ],
+  "description": "simple validation module",
+  "main": "src/FormValidation.js",
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jsUtils": "mankdev/jsUtils#~1.0.0"
+  }
+}
