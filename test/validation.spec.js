@@ -67,7 +67,7 @@ describe('Validation', function() {
 			var helper = new FormHelper(formsTpl, 'novalidatableForm'),
 				validation = new FormValidation(helper.form);
 
-			expect(validation.checkValidity()).toBe(false);
+			expect(validation.checkValidity()).toBe(true);
 		});
 
 		it('should fire E_FORM_VALID if form valid', function(done) {
